@@ -1,1 +1,12 @@
-
+table, th, td {
+  center;
+  width: 50%;
+}
+th {
+  background-color: red;
+  text-align: center;
+}
+td {
+  background-color: green;
+  text-align: center;
+}
