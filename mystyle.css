@@ -19,8 +19,9 @@ td {
   width: 10%;
   margin: auto;
 }
-#th2 {
+.th2 {
   background-color: transparent;
+  padding: auto;
 }
 img {
   width: 50px; 
