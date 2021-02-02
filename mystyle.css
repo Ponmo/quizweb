@@ -1,6 +1,9 @@
 h1 {
   text-align: center;
 }
+body {
+ background-color: orange; 
+}
 .table {
   width: 50%;
   margin: auto;
