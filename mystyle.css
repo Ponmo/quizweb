@@ -9,12 +9,12 @@ body {
   margin: auto;
 }
 th {
-  background-color: grey;
+  background-color: coral;
   text-align: center;
   padding: 25px;
 }
 td {
-  background-color: grey;
+  background-color: honeydew;
   text-align: center;
   padding: 25px;
 }
