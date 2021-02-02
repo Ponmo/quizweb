@@ -5,7 +5,7 @@ $(document).ready(function() {
   var A3;
   var A4;
   var A5;
-  var A6;
+  var A6; //.on mouse click perm change css selected
   var A7;
   var A8;
   var A9
