@@ -1,12 +1,14 @@
 $(document).ready(function() {
   var q = 1;
+  $("td").click(function() {
+    $(".Q" + q).css("border", "none");
+    $("this").css("border", "1px solid black";
+  }
   $(".right").click(function() {
     $(".right").css("background-color", "green";)
   });
   $(".wrong").click(function() {
     $(".wrong").css("background-color", "red";)
-  });
-  $("#back").click(function() {
   });
   $("#forward").click(function() {
     q++;
