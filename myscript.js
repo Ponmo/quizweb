@@ -3,7 +3,7 @@ $(document).ready(function() {
   $("td").click(function() {
     $(".Q" + q).css("border", "none");
     $("this").css("border", "1px solid black";
-  }
+  });
   $("#forward").click(function() {
     //q++;
     //$("Qnumber");
