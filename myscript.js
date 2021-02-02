@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var q = 1;
+  //var q = 1;
   $("td").click(function() {
     $("this").css("border", "1px solid black");
   });
