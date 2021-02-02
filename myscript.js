@@ -1,5 +1,14 @@
 $(document).ready(function() {
   var q = 1;
+  var A1;
+  var A2;
+  var A3;
+  var A4;
+  var A5;
+  var A6;
+  var A7;
+  var A8;
+  var A9
   $(".right").click(function() {
     $(".right").css("background-color", "green";)
   });
