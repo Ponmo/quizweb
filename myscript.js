@@ -7,6 +7,6 @@ $(document).ready(function() {
   $("#back").click(function() {
   });
   $("#forward").click(function() {
-    //include making back button readable.
+    //include making back button readable. adding a number and an id.
   });
 });
