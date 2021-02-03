@@ -1,17 +1,18 @@
 $(document).ready(function() {
   var q = 1;
   var select=1;
-  
   $(".table").click(function() {
-    while(q<10) {
     $("#Q" + q).find("td").click(function() {
-      $("#Q" + q).find("td").css("border", "none");
+      if(q<10){
+        $("#Q" + q).find("td").css("border", "none");
+      }
     });
     $("td").click(function() {
-      $(this).css("border", "1px solid black");
-      select=2;
+      if(q<10){
+        $(this).css("border", "1px solid black");
+        select=2;
+      }
     });
-    }  
   });
   $("#forward").click(function() {
     if(select == 2){
