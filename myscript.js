@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
   $("#forward").click(function() {
     q++;
-    $("#Qnumber").html(q + "/12");
+    $("#Qnumber").html(q + "/9");
     //$(".right").css("background-color", "grey");
     //$(".wrong").css("background-color", "grey");
   });
