@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var q = 1;
   $("#Q" + q).click(function() {
-    $(this."td").css("border", "none");
+    $("td").css("border", "none");
   });
   $("td").click(function() {
     $(this).css("border", "1px solid black");
