@@ -5,10 +5,10 @@ $(document).ready(function() {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "none");
     });
-  });
-  $("td").click(function() {
-    $(this).css("border", "1px solid black");
-    select=2;
+    $("td").click(function() {
+      $(this).css("border", "1px solid black");
+      select=2;
+    });
   });
   $("#forward").click(function() {
     if(select == 2){
