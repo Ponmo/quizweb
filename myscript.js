@@ -18,7 +18,7 @@ $(document).ready(function() {
       $("#Qnumber").html(q + "/9");
       select=1;
     }  
-    if(q = 9) {
+    if(q == 9) {
       $("#forward").hide();
       $("button").css("display", "show");
     }
