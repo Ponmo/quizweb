@@ -10,9 +10,10 @@ $(document).ready(function() {
   });
   $("#forward").click(function() {
     if(select == 2){
-      q++;
-      $("#Qnumber").html(q + "/9");
       $("#Q" + q).hide();
+      q++;
+      $("#Q" + q).show();
+      $("#Qnumber").html(q + "/9");
       select=1;
     }  
   });
