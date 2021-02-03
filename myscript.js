@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var q = 1;
-  $(("#Q" + q).find("td")).click(function() {
+  $(jQuery("#Q" + q).find("td")).click(function() {
     $(jQuery("#Q" + q).find("td")).css("border", "none");
   });
   $("td").click(function() {
