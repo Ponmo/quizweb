@@ -8,7 +8,7 @@ $(document).ready(function() {
     $(this).css("border", "1px solid black");
     select=true;
   });
-  if(select=true) {
+  if(select==true) {
     $("#forward").click(function() {
       q++;
       $("#Qnumber").html(q + "/9");
