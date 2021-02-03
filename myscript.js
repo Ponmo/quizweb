@@ -1,7 +1,9 @@
 $(document).ready(function() {
   var q = 1;
   var select=1;
+  
   $(".table").click(function() {
+    while(q<10) {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "none");
     });
@@ -9,6 +11,7 @@ $(document).ready(function() {
       $(this).css("border", "1px solid black");
       select=2;
     });
+    }  
   });
   $("#forward").click(function() {
     if(select == 2){
@@ -24,6 +27,7 @@ $(document).ready(function() {
     }
   });
   $("button").click(function() {
+    q++;
     $("#table2").hide();
     $(".table").show();
     $(".wrong").css("background-color", "red");
