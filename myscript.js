@@ -20,7 +20,7 @@ $(document).ready(function() {
     }  
     if(q == 9) {
       $("#forward").hide();
-      $("button").css("display", "initial");
+      $("button").show();
     }
     if(q > 9) {
       
