@@ -1,10 +1,11 @@
 $(document).ready(function() {
   var q = 1;
-  alert("hello")
   var select=1;
+  $(".table").click(function() {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "none");
     });
+  });
   $("td").click(function() {
     $(this).css("border", "1px solid black");
     select=2;
