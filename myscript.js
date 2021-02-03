@@ -16,5 +16,5 @@ $(document).ready(function() {
       //$(".wrong").css("background-color", "grey");
       select=false;
     });
-  };
+  }
 });
