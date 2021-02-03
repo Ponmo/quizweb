@@ -3,7 +3,7 @@ $(document).ready(function() {
   var select=1;
   $("#Q" + q).find("td").click(function() {
     $("#Q" + q).find("td").css("border", "none");
-    &alert("hello");
+    alert("hello");
   });
   $("td").click(function() {
     $(this).css("border", "1px solid black");
