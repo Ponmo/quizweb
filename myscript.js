@@ -22,8 +22,12 @@ $(document).ready(function() {
       $("#forward").hide();
       $("button").show();
     }
-    if(q > 9) {
-      
-    }
   });
+  $("button").click(function() {
+    $("#table2").hide();
+    $(".table").show();
+    $(".wrong").css("background-color", "red");
+    $(".right").css("background-color", "green");
+    
+  }
 });
