@@ -28,6 +28,5 @@ $(document).ready(function() {
     $(".table").show();
     $(".wrong").css("background-color", "red");
     $(".right").css("background-color", "green");
-    
-  }
+  });
 });
