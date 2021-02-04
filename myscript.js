@@ -1,10 +1,13 @@
 $(document).ready(function() {
   var q = 1;
-  if(q!=10) {
+  $(".table").mouseover(function() {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "2px solid white");
     });
     $("td").click(function() {
+      if(q!=10) {
+        $(this).css("border", "2px solid black");
+      }
       $("#forward").show();
       $("#forwardfake").hide();
       if(q == 9) {
@@ -13,11 +16,6 @@ $(document).ready(function() {
         $("button").show(); 
       }
     });
-  }
-  $("td").click(function() {
-      if(q!=10) {
-        $(this).css("border", "2px solid black");
-      }
   });
   $("#forward").click(function() {
     $("#forward").hide();
