@@ -68,14 +68,14 @@ button {
   display: none;
 }
 #dd2 {
-  position: fixed;
-  width: 20%;
   float: right;
+  position: fixed;
+  width: 18%;
 }
 #dd {
-  position: fixed;
-  width: 20%;
   float: left;
+  position: fixed;
+  width: 18%;
 }
 p {
   color: grey;
