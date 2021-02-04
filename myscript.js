@@ -7,6 +7,7 @@ $(document).ready(function() {
     $("td").click(function() {
       if(q!=10) {
         $(this).css("border", "2px solid black");
+        $(this).css("outline-offset", "-2px");
       }
       $("#forward").show();
       $("#forwardfake").hide();
