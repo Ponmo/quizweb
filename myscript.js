@@ -7,15 +7,15 @@ $(document).ready(function() {
     });
     $("td").click(function() {
       $(this).css("border", "2px solid black");
-      $(#forward).show();
-      $(#forwardfake).hide();
+      $("#forward").show();
+      $("#forwardfake").hide();
       select=2;
     });
   });
   $("#forward").click(function() {
     if(select == 2){
-      $(#forward).hide();
-      $(#forwardfake).show();
+      $("#forward").hide();
+      $("#forwardfake").show();
       $("#Q" + q).hide();
       q++;
       $("#Q" + q).show();
