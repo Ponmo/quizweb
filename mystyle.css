@@ -27,14 +27,14 @@ body {
 }
 th {
   background-color: #e8f4f8;
-  border: 4px dashed black;
+  border: 4px solid #99cfe0;
   text-align: center;
   padding: 25px;
   font-weight: bold;
 }
 td {
   background-color: #ddd3ee;
-  border: 4px solid #b19cd9;
+  border: 4px dotted black;
   text-align: center;
   padding: 25px;
 }
