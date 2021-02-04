@@ -5,6 +5,7 @@ body {
  background-color: beige; 
 }
 .table {
+  border: 2px black;
   width: 50%;
   margin: auto;
   table-layout: fixed;
