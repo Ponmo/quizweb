@@ -72,4 +72,5 @@ p {
   font-size: 8px;
   position: fixed;
   bottom: 10px;
+  max-width: 20%;
 }
