@@ -1,6 +1,5 @@
 $(document).ready(function() {
   var q = 1;
-  var select=1;
   $(".table").click(function() {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "2px solid white");
@@ -16,19 +15,15 @@ $(document).ready(function() {
       $("#forwardfake").hide();
       $("button").show(); 
       }
-      select=2;
     });
   });
   $("#forward").click(function() {
-    if(select == 2){
-      $("#forward").hide();
-      $("#forwardfake").show();
-      $("#Q" + q).hide();
-      q++;
-      $("#Q" + q).show();
-      $("#Qnumber").html(q + "/9");
-      select=1;
-    }  
+    $("#forward").hide();
+    $("#forwardfake").show();
+    $("#Q" + q).hide();
+    q++;
+    $("#Q" + q).show();
+    $("#Qnumber").html(q + "/9");
   });
   $("button").click(function() {
     q++;
