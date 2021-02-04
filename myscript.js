@@ -24,6 +24,7 @@ $(document).ready(function() {
     }  
     if(q == 9) {
       $("#forward").hide();
+      $("#forwardfake").hide();
       $("button").show();
     }
   });
