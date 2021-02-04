@@ -67,6 +67,16 @@ button {
   font-size: 16px;
   display: none;
 }
+#dd2 {
+  position: fixed;
+  width: 20%;
+  
+}
+#dd {
+  position: fixed;
+  width: 20%;
+  
+}
 p {
   color: grey;
   font-size: 8px;
