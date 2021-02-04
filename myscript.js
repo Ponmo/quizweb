@@ -27,7 +27,7 @@ $(document).ready(function() {
     q++;
     $("#table2").hide();
     $(".table").show();
-    $(".wrong").css("background-color", "firebrick");
+    $(".wrong").css("background-color", "indianred");
     $(".right").css("background-color", "darkseagreen");
   });
 });
