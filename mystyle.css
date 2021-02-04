@@ -6,9 +6,13 @@ body {
  background-color: white; 
 }
 #jead {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
+  z-index: 1;
+  border-radius: 5px;
+  position: fixed;
+  width: 97.5%;
+  margin-top: -20px;
+  height: 60px;
+  margin-bottom: 10px;
   background-color: #2e2e2e;
   border-bottom: 2px solid black;
 }
