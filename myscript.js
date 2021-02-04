@@ -8,7 +8,7 @@ $(document).ready(function() {
     $("td").click(function() {
       if(q!=10) {
         $(this).css("border", "4px solid black");
-        $(this).css("padding", "21px");
+        $(this).css("padding", "23px");
       }
       $("#forward").show();
       $("#forwardfake").hide();
