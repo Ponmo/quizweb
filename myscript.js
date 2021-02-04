@@ -28,7 +28,7 @@ $(document).ready(function() {
   $("button").click(function() {
     q++;
     $("#table2").hide();
-    $(".table").show();
+    $(".table").fadeIn();
     $(".wrong").css("background-color", "#ffa6a6");
     $(".right").css("background-color", "#bcf5bc");
   });
