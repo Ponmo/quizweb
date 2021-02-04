@@ -7,17 +7,13 @@ $(document).ready(function() {
     });
     $("td").click(function() {
       $(this).css("border", "2px solid black");
-      if(q < 9)
-      {
-        $("#forward").show();
-      }
-      else()
-      {
-        $("#forward").hide();
-        $("#forwardfake").hide();
-        $("button").show();
-      }
+      $("#forward").show();
       $("#forwardfake").hide();
+      if(q == 9) {
+      $("#forward").hide();
+      $("#forwardfake").hide();
+      $("button").show(); 
+      }
       select=2;
     });
   });
