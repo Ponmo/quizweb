@@ -5,14 +5,13 @@ body {
  background-color: beige; 
 }
 .table {
-  border: 2px solid black;
   width: 50%;
   margin: auto;
   table-layout: fixed;
   margin-bottom: 10px;
 }
 th {
-  background-image: url("wp3190173.jpg");
+  background-color: white;
   text-align: center;
   padding: 25px;
   font-weight: bold;
@@ -21,7 +20,8 @@ td {
   background-color: honeydew;
   text-align: center;
   padding: 25px;
-  border-spacing: 2px;
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 #table2 {
   width: 10%;
