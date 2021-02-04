@@ -6,7 +6,7 @@ $(document).ready(function() {
       $("#Q" + q).find("td").css("border", "none");
     });
     $("td").click(function() {
-      $(this).css("border", "2px solid purple");
+      $(this).css("border", "2px solid black");
       select=2;
     });
   });
