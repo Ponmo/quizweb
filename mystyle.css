@@ -11,10 +11,10 @@ body {
   margin-bottom: 10px;
 }
 th {
-  background-color: black;
+  background-image: url("wp3190173.jpg");
   text-align: center;
   padding: 25px;
-  color: white;
+  font-weight: bold;
 }
 td {
   background-color: honeydew;
