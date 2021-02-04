@@ -3,12 +3,10 @@ $(document).ready(function() {
   $(".table").mouseover(function() {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "2px solid white");
-      $("#Q" +q).css("padding", "25px");
     });
     $("td").click(function() {
       if(q!=10) {
         $(this).css("border", "4px solid black");
-        $(this).css("padding", "23px");
       }
       $("#forward").show();
       $("#forwardfake").hide();
