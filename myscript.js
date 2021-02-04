@@ -29,7 +29,7 @@ $(document).ready(function() {
     q++;
     $("#table2").hide();
     $(".table").show();
-    $(".wrong").css("background-color", "indianred");
-    $(".right").css("background-color", "darkseagreen");
+    $(".wrong").css("background-color", "#ffa6a6");
+    $(".right").css("background-color", "#bcf5bc");
   });
 });
