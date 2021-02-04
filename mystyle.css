@@ -33,7 +33,7 @@ td {
 img {
   width: 50px; 
 }
-.forward {
+#forward {
   display: none; 
 }
 #Q2, #Q3, #Q4, #Q5, #Q6, #Q7, #Q8, #Q9 {
