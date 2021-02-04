@@ -6,9 +6,8 @@ body {
  background-color: white; 
 }
 #jead {
-  margin: auto;
+  margin: 0px;
   width: 100%;
-  padding: 60px;
   background-color: #2e2e2e;
   border-bottom: 2px solid black;
 }
