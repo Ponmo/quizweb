@@ -20,10 +20,9 @@ td {
   background-color: honeydew;
   text-align: center;
   padding: 25px;
-  border-spacing: 10px;
-  border-collapse: separate;
 }
 #table2 {
+  table-layout: fixed;
   width: 10%;
   margin: auto;
 }
