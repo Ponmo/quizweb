@@ -1,6 +1,9 @@
 $(document).ready(function() {
   var q = 1;
   $(".table").mouseover(function() {
+    $("td").mouseover(function() {
+      $(this).css("mouse", "pointer");
+    });
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "4px solid #A9A9A9");
     });
