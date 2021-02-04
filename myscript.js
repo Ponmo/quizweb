@@ -7,7 +7,16 @@ $(document).ready(function() {
     });
     $("td").click(function() {
       $(this).css("border", "2px solid black");
-      $("#forward").show();
+      if(q < 9)
+      {
+        $("#forward").show();
+      }
+      else()
+      {
+        $("#forward").hide();
+        $("#forwardfake").hide();
+        $("button").show();
+      }
       $("#forwardfake").hide();
       select=2;
     });
@@ -22,11 +31,6 @@ $(document).ready(function() {
       $("#Qnumber").html(q + "/9");
       select=1;
     }  
-    if(q == 9) {
-      $("#forward").hide();
-      $("#forwardfake").hide();
-      $("button").show();
-    }
   });
   $("button").click(function() {
     q++;
