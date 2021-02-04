@@ -17,6 +17,7 @@ td {
   background-color: honeydew;
   text-align: center;
   padding: 25px;
+  max-width: 25%;
 }
 #table2 {
   width: 10%;
