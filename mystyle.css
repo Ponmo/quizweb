@@ -8,11 +8,13 @@ body {
   width: 50%;
   margin: auto;
   table-layout: fixed;
+  margin-bottom: 10px;
 }
 th {
-  background-color: coral;
+  background-color: black;
   text-align: center;
   padding: 25px;
+  color: white;
 }
 td {
   background-color: honeydew;
