@@ -1,21 +1,23 @@
 $(document).ready(function() {
   var q = 1;
-  $(".table").click(function() {
+  if(q!=10) {
     $("#Q" + q).find("td").click(function() {
       $("#Q" + q).find("td").css("border", "2px solid white");
     });
     $("td").click(function() {
-      if(q!=10) {
-        $(this).css("border", "2px solid black");
-      }  
       $("#forward").show();
       $("#forwardfake").hide();
       if(q == 9) {
-      $("#forward").hide();
-      $("#forwardfake").hide();
-      $("button").show(); 
+        $("#forward").hide();
+        $("#forwardfake").hide();
+        $("button").show(); 
       }
     });
+  }
+  $("td").click(function() {
+      if(q!=10) {
+        $(this).css("border", "2px solid black");
+      }
   });
   $("#forward").click(function() {
     $("#forward").hide();
