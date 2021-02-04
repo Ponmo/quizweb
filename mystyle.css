@@ -68,12 +68,12 @@ button {
   display: none;
 }
 #dd2 {
-  float: right;
+  right: 0;
   position: fixed;
   width: 18%;
 }
 #dd {
-  float: left;
+  left: 0;
   position: fixed;
   width: 18%;
 }
