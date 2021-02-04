@@ -70,12 +70,12 @@ button {
 #dd2 {
   position: fixed;
   width: 20%;
-  
+  float: right;
 }
 #dd {
   position: fixed;
   width: 20%;
-  
+  float: left;
 }
 p {
   color: grey;
