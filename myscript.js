@@ -6,7 +6,9 @@ $(document).ready(function() {
       $("#Q" + q).find("td").css("border", "none");
     });
     $("td").click(function() {
-      $(this).css("border", "2px solid black");
+      if(q!=10) {
+        $(this).css("border", "2px solid black");
+      }  
       $("#forward").show();
       $("#forwardfake").hide();
       if(q == 9) {
