@@ -21,6 +21,7 @@ td {
   background-color: honeydew;
   text-align: center;
   padding: 25px;
+  border-spacing: 2px;
 }
 #table2 {
   width: 10%;
