@@ -2,7 +2,7 @@ $(document).ready(function() {
   var q = 1;
   $(".table").mouseover(function() {
     $("#Q" + q).find("td").click(function() {
-      $("#Q" + q).find("td").css("border", "4px solid #d6d6d6");
+      $("#Q" + q).find("td").css("border", "4px solid #b19cd9");
     });
     $("td").click(function() {
       if(q!=10) {
